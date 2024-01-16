@@ -7,7 +7,7 @@ app.get('/', (req, res) => {
 })
 
 app.get('/api', (req, res) => {
-  res.send('Hello World! It's a new dawn')
+  res.send('Hello World! It's nice to meet you')
 })
 
 app.listen(port, () => {
